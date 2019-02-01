@@ -15,9 +15,9 @@ id 'application'
 }
 
 repositories {
-// Use jcenter for resolving your dependencies.
-// You can declare any Maven/Ivy/file repository here.
-mavenCentral()
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    mavenCentral()
 }
 
 dependencies {
@@ -29,4 +29,5 @@ testImplementation 'junit:junit:4.12'
 }
 
 // Define the main class for the application
+apply plugin: 'application'
 mainClassName = 'main.java.csci2020u.lab02.SimpleTest.java'
